@@ -1,0 +1,46 @@
+NexusLink/
+├── backend/  
+│   ├── controllers/  
+│   │   ├── linkController.js  
+│   │   ├── userController.js  
+│   ├── models/  
+│   │   ├── Link.js  
+│   │   ├── User.js  
+│   ├── routes/  
+│   │   ├── linkRoutes.js  
+│   │   ├── userRoutes.js  
+│   ├── config/  
+│   │   ├── database.js  
+│   │   ├── auth.js  
+│   ├── server.js  
+│   ├── package.json  
+│   ├── .env  
+├── frontend/  
+│   ├── public/  
+│   │   ├── index.html  
+│   │   ├── dashboard.html  
+│   │   ├── login.html  
+│   │   ├── 404.html  
+│   ├── assets/  
+│   │   ├── styles/  
+│   │   │   ├── main.css  
+│   │   │   ├── dashboard.css  
+│   │   ├── scripts/  
+│   │   │   ├── app.js  
+│   │   │   ├── dashboard.js  
+│   │   │   ├── auth.js  
+│   ├── components/  
+│   │   ├── navbar.html  
+│   │   ├── footer.html  
+│   ├── package.json  
+│   ├── vite.config.js  
+│   ├── README.md  
+├── database/  
+│   ├── schema.sql  
+│   ├── migrations/  
+│   │   ├── 001_create_links_table.sql  
+│   │   ├── 002_create_users_table.sql  
+│   ├── seed/  
+│   │   ├── sampleData.js  
+│   ├── db.sqlite  
+├── .gitignore  
