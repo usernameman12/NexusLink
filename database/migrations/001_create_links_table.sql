@@ -1,0 +1,8 @@
+-- 001_create_links_table.sql
+CREATE TABLE IF NOT EXISTS links (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    originalUrl TEXT NOT NULL,
+    shortUrl TEXT NOT NULL UNIQUE,
+    clicks INTEGER DEFAULT 0,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP
+);

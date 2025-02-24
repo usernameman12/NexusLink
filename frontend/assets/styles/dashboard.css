@@ -1,0 +1,14 @@
+/* dashboard.css */
+/* Additional styles for the dashboard can be added here */
+.container {
+    text-align: left;
+  }
+  
+  .container h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .container p {
+    margin-bottom: 2rem;
+  }
+  
